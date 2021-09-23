@@ -1,0 +1,51 @@
+.men, .lip, .tip {
+        padding: 15px;
+        
+}
+.men{
+    width: 20%;
+}
+.lip{
+    width: 55%;
+}
+.tip{
+    width: 25%;
+}
+body{
+    margin: 0px;
+    background-color: lightgray;
+    box-shadow: 0px 0px 10px lightgray;
+    
+    
+}
+.men div, .lip div, .tip div{
+    background-color: rgb(239, 239, 239);
+    padding: 30px;
+    border-radius: 10px;
+}
+.container{
+    display: flex;
+}
+nav{
+    background-color: white;
+}
+.side div{
+    
+    border-radius: 10px;
+    font-family: sans-serif;
+    background-color:rgb(239, 239, 239);
+    box-shadow: 0px 0px 10px lightgray;
+
+}
+li:hover{
+    color: blue;
+    box-shadow: lightgray;
+    background: lightgray;
+    border-radius: 5px;
+    border-width: 30px;
+    
+}
+.load{
+   height: 200px;
+   overflow: auto;
+}
